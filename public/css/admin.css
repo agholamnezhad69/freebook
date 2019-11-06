@@ -1,0 +1,198 @@
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3,
+.col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3,
+.col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1,
+.col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5,
+.col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11,
+.col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7,
+.col-xs-8, .col-xs-9 {
+
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+@font-face {
+    font-family: "sahel";
+    src: url('/font/Sahel-FD-WOL.eot') format("eot"),
+    url('/font/Sahel-FD-WOL.ttf') format("truetype"),
+    url('/font/Sahel-FD-WOL.woff') format("woff");
+}
+@font-face {
+    font-family:'BYeeekan' ;
+    src: url('/font/BYekan.eot') format('embedded-opentype'),
+    url('/font/BYekan.ttf') format('truetype'),
+    url('/font/BYekan.woff') format('woff');
+    url('/font/BYekan.woff') format('woff');
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+a, a:focus, a:active, a:visited, a:hover {
+    color: #616161;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+}
+body{
+    font-size: 14px;
+    font-family: BYeeekan;
+}
+
+
+.navbar {
+
+    margin-bottom: 0px;
+
+}
+
+.navbar-default {
+    height: 70px;
+    background: #007ee5;
+    border-color: #007ee5;
+    border-right: 1px solid #1372bf;
+}
+
+.nav .user {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #eee;
+    text-align: center;
+    border-radius: 100%;
+    background: #5bc0de;
+    margin: 5px 0;
+}
+
+.nav .fa-user {
+    color: #fff;
+    display: inline-block;
+    font-size: 23px;
+    line-height: 49px;
+}
+
+.nav .nav-row {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    padding: 5px 36px;
+}
+
+.nav .fa-windows {
+    color: #fff;
+    display: inline-block;
+    font-size: 40px;
+    line-height: 62px;
+    float: right;
+}
+
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+    background-color: unset !important;
+}
+
+.nav .dropdown-menu {
+    top: 90%;
+}
+
+/*start main*/
+.main {
+    width: 100%;
+}
+
+.main .main-row {
+    width: 100%;
+    height: 100%;
+    float: right;
+}
+.main-row > div{
+    float: right;
+}
+.main .main-row ul li{
+    text-align: right;
+    color: #fff;
+}
+.main .main-row aside{
+    background-color: #fff;
+    height: 700px;
+    border-left: 1px solid #ececec;
+}
+.main .main-row aside  >ul> li{
+    display: block;
+    padding: 25px 24px;
+}
+.main .main-row aside  >ul> li >a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    font-family: BYeeekan;
+    color: #000;
+}
+.main .main-row aside  >ul> li >a:hover{
+    color: #a3071f;
+}
+.main .main-row aside  >ul> li >a >i{
+    margin-left: 13px;
+    vertical-align: -2px;
+}
+.main .main-row ul#desktop{
+    background-color: #fff;
+}
+.main .main-row ul  li{
+    padding-right: 51px;
+    padding-top: 19px;
+}
+.main .main-row .content .content-top{
+    width: 100%;
+    float: right;
+    text-align: center;
+    padding-left:  38px;
+    padding-top: 32px;
+
+}
+.main .main-row .content .content-box{
+    width: 200px;
+    height: 156px;
+    background-color: #75de20;
+    text-align: center;
+    padding-top: 45px;
+    margin-top: 5px;
+
+}
+.main .main-row .content .content-box i{
+    font-size: 41px;
+    margin-right: 38px;
+    color: #fff;
+    vertical-align: -5px;
+}
+.main .main-row .content .content-box span{
+    font-size: 41px;
+    color: #fff;
+}
+
+.main .main-row .content .content-box p{
+    font-size: 22px;
+    color: #fff;
+}
+
+.content .panel {
+    margin: 23px 10px;
+}
+.content .divParent  h2{
+    background-color: #ccf2d1;
+    padding: 10px 12px;
+    border: 2px solid #e0dddd;
+    font-size: 16px;
+    text-align: right;
+}
+.content .panel table{
+    direction: rtl;
+}
+.content .panel th,.content .panel td {
+    text-align: center;
+}
